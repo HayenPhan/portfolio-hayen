@@ -1,0 +1,21 @@
+.home {
+    background-color: #000057;
+    color: #fff;
+    height: 800px;
+
+    &__menu:nth-child(n) {
+        text-align: center;
+    }
+
+    &__figure-wrapper {
+        position: absolute;
+        left: -400px;
+        top: -100px;
+        height: 400px;
+        width: 800px;
+    }
+
+    &__menu {
+
+    }
+}
