@@ -10,13 +10,22 @@
 
     &__slime {
         background-color: green;
+        background-size: 900px 900px;
         background-image: url("../images/slime--mobile.png");
-        background-size: 1300px 1300px;
         background-repeat: no-repeat;
-        background-position: -300px 80px;
+        background-position: -200px 200px;
         height: 1000px;
         position: absolute;
         width: 100%;
+
+        @media (min-width: 500px) {
+            background-size: 1300px 1300px;
+            background-position: -300px 80px;
+        }
+
+        @media (min-width: 768px) {
+            background-size: 1600px 1600px;
+        }
     }
 
     &__menu {
