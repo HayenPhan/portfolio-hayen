@@ -7,9 +7,7 @@ class Home extends React.Component {
     return (
       <Container fluid>
           <Row className="home">
-          <div className="home__figure-wrapper">
-              <SvgFigure1 className="home__figure1"> </SvgFigure1>
-          </div>
+          <div className="home__slime"> </div>
               <Col xs={12}>
                   <Row className="home__menu">
                       <Col xs={4}> intro </Col>

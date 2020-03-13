@@ -2,17 +2,21 @@
     background-color: #000057;
     color: #fff;
     height: 800px;
+    position: relative;
 
     &__menu:nth-child(n) {
         text-align: center;
     }
 
-    &__figure-wrapper {
+    &__slime {
+        background-color: green;
+        background-image: url("../images/slime--mobile.png");
+        background-size: 1300px 1300px;
+        background-repeat: no-repeat;
+        background-position: -300px 80px;
+        height: 1000px;
         position: absolute;
-        left: -400px;
-        top: -100px;
-        height: 400px;
-        width: 800px;
+        width: 100%;
     }
 
     &__menu {
