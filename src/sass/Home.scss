@@ -1,34 +1,163 @@
 .home {
-    background-color: #000057;
     color: #fff;
-    height: 800px;
+    height: 100%;
     position: relative;
 
     &__menu:nth-child(n) {
         text-align: center;
     }
 
-    &__slime {
-        background-color: green;
-        background-size: 900px 900px;
-        background-image: url("../images/slime--mobile.png");
-        background-repeat: no-repeat;
-        background-position: -200px 200px;
-        height: 1000px;
-        position: absolute;
-        width: 100%;
+    &__menu {
+        flex-direction: row-reverse;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 2px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    &__menu--item {
+        padding-left: -130px;
+    }
+
+    &__info {
+
+        //background-color: green;
+        flex-direction: column;
+        letter-spacing: 2px;
+        font-family: 'Lora', sans-serif;
+        text-align: center;
+
+        @media (min-width: 1024px) {
+            flex-direction: row;
+        }
+    }
+
+    &__info--name, &__info--lastname {
+        //background-color: blue;
+        z-index: 99;
+        font-size: 55px;
+        font-weight: 700;
+        letter-spacing: 5px;
+
+        @media (min-width: 1024px) {
+            font-size: 80px;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 90px;
+        }
+
+    }
+
+    &__info--name {
+        margin-left: -30px;
+    }
+
+    &__info--name-wrapper {
+        margin-bottom: 100px;
 
         @media (min-width: 500px) {
-            background-size: 1300px 1300px;
-            background-position: -300px 80px;
+            margin-bottom: 150px;
+        }
+
+
+    }
+
+    &__info--lastname {
+        margin-left: 30px;
+
+        @media (min-width: 1024px) {
+            margin-left: 200px;
+        }
+    }
+
+    &__info--spec {
+        //background-color: pink;
+        z-index: 99;
+    }
+
+    &__info--wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 50%);
+
+        @media (min-width: 1024px) {
+            top: 50%;
+            left: 52%;
+        }
+
+        @media (min-width: 1200px) {
+            top: 50%;
+            left: 55%;
+        }
+
+    }
+
+    &__specialization {
+        background-image: url("../images/slime-specialization--mobile.png");
+        background-size: 228px 169px;
+        background-repeat: no-repeat;
+        width: 230px;
+        height: 170px;
+        position: relative;
+        @media (min-width: 1024px) {
+            margin-top: -50px;
+        }
+        @media (min-width: 1200px) {
+            background-size: 258px 199px;
+            width: 260px;
+            height: 200px;
+            margin-left: 100px;
+        }
+    }
+
+    &__specialization-title {
+          position: absolute;
+          top: 30%;
+          left: 50%;
+          font-size: 25px;
+          margin-right: -50%;
+          transform: translate(-50%, 50%);
+    }
+
+    &__slime {
+        background-size: 1200px 1200px;
+        background-image: url("../images/slime--mobile.png");
+        background-repeat: no-repeat;
+        background-position: -560px 50px;
+        background-color: #000057;
+        height: 900px;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+
+        @media (min-width: 500px) {
+            background-size: 1350px 1350px;
+            background-position: -640px -50px;
         }
 
         @media (min-width: 768px) {
-            background-size: 1600px 1600px;
+            background-size: 2000px 2000px;
+            background-position: -1000px -400px;
+        }
+
+        @media (min-width: 1024px) {
+            background-size: 1388px 1558px;
+            background-position: -650px -400px;
+            height: 650px;
+        }
+
+        @media (min-width: 1200px) {
+
+            background-position: -550px -400px;
+            height: 700px;
         }
     }
+}
 
-    &__menu {
-
-    }
+.container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
