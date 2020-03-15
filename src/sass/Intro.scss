@@ -1,0 +1,23 @@
+.intro {
+    background-color: pink;
+    width: 100%;
+    height: 820px;
+    position: absolute;
+    top: 820px;
+    margin: 0;
+
+    @media (min-width: 500px) {
+        height: 900px;
+        top: 900px;
+    }
+
+    @media (min-width: 1024px) {
+        height: 650px;
+        top: 650px;
+    }
+
+    @media (min-width: 1200px) {
+        height: 700px;
+        top: 700px;
+    }
+}
