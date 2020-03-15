@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import SvgArrowDown from './svg/ArrowDown';
 
 class Home extends React.Component {
   render() {
@@ -25,9 +26,13 @@ class Home extends React.Component {
                                   <p className="home__specialization-title"> UI/UX </p>
                               </div>
                           </Col>
-                          <Col className="home__info--arrow">
-                          </Col>
                       </Row>
+              </div>
+              <div className="home__redirect">
+                  <p className="home__redirect--title"> about me </p>
+                  <div className="home__redirect--arrow-wrapper">
+                      <SvgArrowDown className="home__redirect--arrow"> </SvgArrowDown>
+                  </div>
               </div>
           </Row>
       </Container>
