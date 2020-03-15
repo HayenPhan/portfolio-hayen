@@ -3,20 +3,35 @@
     height: 100%;
     position: relative;
 
-    &__menu:nth-child(n) {
-        text-align: center;
-    }
-
     &__menu {
-        flex-direction: row-reverse;
         font-family: 'Poppins', sans-serif;
         letter-spacing: 2px;
-        padding-top: 20px;
-        padding-right: 20px;
     }
 
     &__menu--item {
-        padding-left: -130px;
+        list-style-type: none;
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    &__menu--list {
+        position: absolute;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 30px;
+
+        @media (min-width: 768px) {
+            left: auto;
+            right: 10px;
+            transform: none;
+            margin-top: 20px;
+        }
+
+        @media (min-width: 1024px) {
+            right: 15px;
+        }
     }
 
     &__info {
@@ -157,7 +172,7 @@
     }
 }
 
-.container {
+.container-fluid {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }

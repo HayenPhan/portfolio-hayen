@@ -5,13 +5,15 @@ class Home extends React.Component {
   render() {
     return (
       <Container fluid>
-          <section className="home">
+          <Row className="home">
               <div className="home__slime"> </div>
-              <Row className="home__menu">
-                      <Col xs={4} md={1} className="home__menu--item"> contact </Col>
-                      <Col xs={4} md={1} className="home__menu--item"> projects </Col>
-                      <Col xs={4} md={1} className="home__menu--item"> intro </Col>
-              </Row>
+              <div className="home__menu">
+                  <ul className="home__menu--list">
+                      <li className="home__menu--item"> intro </li>
+                      <li className="home__menu--item"> projects </li>
+                      <li className="home__menu--item"> contact </li>
+                  </ul>
+              </div>
               <div className="home__info--wrapper">
                       <Row className="home__info">
                           <div className="home__info--name-wrapper">
@@ -27,7 +29,7 @@ class Home extends React.Component {
                           </Col>
                       </Row>
               </div>
-          </section>
+          </Row>
       </Container>
     )
   }
