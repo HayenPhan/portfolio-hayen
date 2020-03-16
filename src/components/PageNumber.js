@@ -1,13 +1,13 @@
 import React from 'react';
 
-const PageNumber = () => {
+const PageNumber = (props) => {
     return(
         <div className="pagenumber__wrapper">
-            <p className="pagenumber"> 01 </p>
+            <p className="pagenumber"> { props.count } </p>
             <div className="pagenumber__circle--wrapper">
                 <span className="pagenumber__circle"> </span>
             </div>
-            <p className="pagenumber__text"> about me </p>
+            <p className="pagenumber__text"> { props.title } </p>
         </div>
     )
 };
