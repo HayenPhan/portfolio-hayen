@@ -1,0 +1,168 @@
+.firstproject {
+    //background-color: blue;
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    top: 1670px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    @media (min-width: 500px) {
+        //height: 900px;
+        top: 1750px;
+    }
+
+    @media (min-width: 768px) {
+        //height: 900px;
+        top: 2050px;
+        height: 1024px;
+    }
+
+    @media (min-width: 1024px) {
+        //height: 900px;
+        top: 1300px;
+        height: 650px;
+        flex-direction: row-reverse;
+        position: relative;
+    }
+
+    @media (min-width: 1200px) {
+        //height: 900px;
+        top: 1400px;
+        height: 700px;
+    }
+
+    &__pagenumber {
+        &--wrapper {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          margin-top: 15px;
+          height: 50px;
+
+          @media (min-width: 768px) {
+              position: absolute;
+              top: 165px;
+              transform: rotate(-90deg);
+              left: -50px;
+              //background-color: green;
+              width: 200px;
+          }
+
+          @media (min-width: 1024px) {
+              top: 290px;
+          }
+
+        }
+    }
+
+    &__title {
+        font-family: 'Lora', sans-serif;
+        color: #33338E;
+        letter-spacing: 3px;
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 20px;
+
+
+            text-align: center;
+            margin-top: 20px;
+
+            @media (min-width: 768px) {
+                margin-top: 95px;
+            }
+
+            @media (min-width: 1024px) {
+                display: none;
+            }
+
+    }
+
+    &__title--desktop {
+
+        display: none;
+
+        @media (min-width: 1024px) {
+          position: absolute;
+          display: block;
+          top: 27%;
+          right: -5%;
+          transform: translate(-110%, -50%);
+          margin: 0;
+          font-family: 'Lora', sans-serif;
+          color: #33338E;
+          letter-spacing: 3px;
+          font-weight: 700;
+          font-size: 50px;
+        }
+    }
+
+    &__text {
+      font-family: 'Lora', sans-serif;
+      color: #33338E;
+      letter-spacing: 2px;
+      font-size: 15px;
+      line-height: 2;
+      text-align: center;
+
+
+            margin: 0 auto;
+
+            @media (min-width: 768px) {
+                width: 450px;
+            }
+
+            @media (min-width: 1024px) {
+                position: absolute;
+                top: 51%;
+                right: -6%;
+                transform: translate(-50%, -50%);
+                width: 355px;
+                text-align: left;
+                margin: 0;
+            }
+    }
+
+
+
+    &__mockup {
+        background-image: url("../images/iphone_mockup.png");
+        background-size: 278px 287px;
+        background-repeat: no-repeat;
+        width: 298px;
+        height: 287px;
+        //background-color: green;
+        margin: 0 auto;
+
+        @media (min-width: 500px) {
+            background-size: 400px 389px;
+            width: 400px;
+            height: 389px;
+        }
+
+        @media (min-width: 768px) {
+            background-size: 498px 487px;
+            width: 498px;
+            height: 487px;
+        }
+
+        @media (min-width: 1024px) {
+            background-size: 498px 487px;
+            width: 498px;
+            height: 487px;
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+
+        @media (min-width: 1200px) {
+            background-size: 558px 547px;
+            width: 558px;
+            height: 547px;
+        }
+
+    }
+}

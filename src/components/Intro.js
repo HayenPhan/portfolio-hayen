@@ -13,7 +13,7 @@ const Intro = () => {
                 </div>
             </div>
             <div className="intro__text-wrapper">
-
+            
               <p className="intro__title"> Hi, </p>
               <p className="intro__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc venenatis libero dolor, non placerat erat malesuada id. Mauris interdum blandit nibh. Quisque ut sapien ac risus viv </p>
 
