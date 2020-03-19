@@ -1,5 +1,6 @@
 import React from 'react';
 import PageNumber from './PageNumber';
+import SvgButton from './svg/Button';
 
 const Project1 = () => {
     return(
@@ -8,10 +9,26 @@ const Project1 = () => {
                 <PageNumber title="plantacle" count="02"> </PageNumber>
             </div>
                 <h2 className="firstproject__title"> Plantacle </h2>
-            <div className="firstproject__mockup">
+
+
+            <div className="firstproject__mockup-wrapper">
+                <div className="firstproject__mockup">
+                </div>
             </div>
-                <h2 className="firstproject__title--desktop"> Plantacle </h2>
-                <h2 className="firstproject__text"> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas dasdasdas.  </h2>
+
+
+            <div className="firstproject__right-block">
+                <div className="firstproject__text-wrapper">
+                    <h2 className="firstproject__title--desktop"> Plantacle </h2>
+                    <h2 className="firstproject__text"> jadiosjaiodjaisdojasiodjaoisjdaios. JDIASJdidjsdjalksdjakl jasdjal. jdasdhaskhdjahkdahskdhasd. sajdasjdalkjdkalsjdakljsdak  </h2>
+                    <div className="firstproject__button-wrapper">
+                        <SvgButton className="firstproject__button">
+                        </SvgButton>
+                        <p className="firstproject__button-text"> Lees meer! </p>
+                    </div>
+                </div>
+            </div>
+
         </section>
     )
 };
