@@ -24,7 +24,7 @@ const Project1 = () => {
                     <div className="firstproject__button-wrapper">
                         <SvgButton className="firstproject__button">
                         </SvgButton>
-                        <p className="firstproject__button-text"> Lees meer! </p>
+                        <p className="firstproject__button-text"> Read more! </p>
                     </div>
                 </div>
             </div>

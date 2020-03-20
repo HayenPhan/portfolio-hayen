@@ -6,17 +6,19 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './Home';
+import DetailPlantacle from './DetailPlantacle';
 
-function App() {
-  return (
-      <Router>
-          <Switch>
-              <Route path="/">
-                  <Home />
-              </Route>
-          </Switch>
-      </Router>
-  );
+class App extends React.Component {
+    render() {
+        return (
+            <Router>
+                <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/plantacle" component={DetailPlantacle} />
+                </Switch>
+            </Router>
+        );
+    }
 }
 
 export default App;
