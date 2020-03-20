@@ -67,7 +67,7 @@
         @media (min-width: 768px) {
             background-size: auto;
             background-position: -280px -40px;
-            padding-top: 80px;
+            padding-top: 40px;
         }
 
         @media (min-width: 1024px) {
@@ -91,14 +91,6 @@
     &__text, &__title {
         color: #fff;
         font-family: 'Lora', sans-serif;
-
-        @media (min-width: 1024px) {
-            width: 370px;
-            position: absolute;
-            top: 38%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
     }
 
     &__text {
@@ -108,13 +100,14 @@
 
         @media (min-width: 768px) {
             width: 500px;
+            font-size: 18px;
         }
 
         @media (min-width: 1024px) {
-            width: 370px;
+            width: 450px;
             position: absolute;
             top: 60%;
-            left: 50%;
+            left: 55%;
             transform: translate(-50%, -50%);
         }
     }
@@ -122,6 +115,15 @@
     &__title {
         font-weight: 700;
         font-size: 50px;
+        letter-spacing: 3px;
+
+        @media (min-width: 1024px) {
+            width: 370px;
+            position: absolute;
+            top: 34%;
+            left: 49%;
+            transform: translate(-50%, -50%);
+        }
     }
 
     &__pagenumber {

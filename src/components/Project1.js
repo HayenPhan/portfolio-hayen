@@ -20,7 +20,7 @@ const Project1 = () => {
             <div className="firstproject__right-block">
                 <div className="firstproject__text-wrapper">
                     <h2 className="firstproject__title--desktop"> Plantacle </h2>
-                    <h2 className="firstproject__text"> jadiosjaiodjaisdojasiodjaoisjdaios. JDIASJdidjsdjalksdjakl jasdjal. jdasdhaskhdjahkdahskdhasd. sajdasjdalkjdkalsjdakljsdak  </h2>
+                    <h2 className="firstproject__text"> An app for monotoring the compost process in smaller households. </h2>
                     <div className="firstproject__button-wrapper">
                         <SvgButton className="firstproject__button">
                         </SvgButton>

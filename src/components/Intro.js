@@ -15,7 +15,7 @@ const Intro = () => {
             <div className="intro__text-wrapper">
 
               <p className="intro__title"> Hi, </p>
-              <p className="intro__text"> Lorem ipsum dolot amet, consectetur adipiscing elit. Nunc venenatis libero dolor, non placerat erat malesuada id. Mauris interdum blandit nibh. Quisque ut sapien ac risus viv </p>
+              <p className="intro__text"> My name is Hayen. Currently I am studying Mediatechnology, specializing in front-end development. Lately I have discovered my passion for UI/UX design. In the future I would like to become the glue between design and engineering. </p>
 
             </div>
         </section>
