@@ -6,31 +6,40 @@
   padding-top: 20px;
   top: 1000px;
   height: 1900px;
-  background-color: pink;
+  //background-color: pink;
 
   @media (min-width: 768px) {
-      height: 2048px;
+      height: 2240px;
   }
 
   @media (min-width: 1024px) {
       height: 650px;
+      top: 650px;
   }
 
   @media (min-width: 1200px) {
       height: 700px;
+      top: 700px;
   }
 
   &__pagenumber-wrapper {
       width: 100%;
-      background-color: crimson;
+      //background-color: crimson;
       display: flex;
       justify-content: center;
       margin-bottom: 25px;
+
+      @media (min-width: 768px) {
+          position: absolute;
+          top: 50%;
+          transform: rotate(-90deg);
+          left: -46%;
+      }
   }
 
   &__title-wrapper {
       width: 100%;
-      background-color: green;
+      //background-color: green;
       margin-bottom: 50px;
       display: flex;
       justify-content: center;
@@ -48,6 +57,12 @@
       width: 100%;
       height: auto;
       background-color: yellow;
+
+      @media (min-width: 1200px) {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 60px;
+      }
   }
 
   &__bin {
@@ -55,7 +70,10 @@
       margin-bottom: 50px;
       background-color: grey;
 
-
+      @media (min-width: 1200px) {
+          width: 300px;
+          position: relative;
+      }
   }
 
   &__bin-title {
@@ -67,9 +85,16 @@
       margin-bottom: 20px;
 
       @media (min-width: 768px) {
-          font-size: 25px;
-          width: 200px;
+          font-size: 20px;
+          //background-color: brown;
+      }
+
+      @media (min-width: 1200px) {
+          font-size: 15px;
           background-color: brown;
+          position: absolute;
+          bottom: -80px;
+          left: 120px;
       }
   }
 
@@ -86,6 +111,13 @@
           background-repeat: no-repeat;
           width: 330px;
           height: 370px;
+      }
+
+      @media (min-width: 1200px) {
+          background-size: 240px 280px;
+          background-repeat: no-repeat;
+          width: 240px;
+          height: 280px;
       }
 
   }
@@ -112,7 +144,18 @@
 
   &__text-wrapper {
       width: 100%;
-      background-color: purple;
+      //background-color: purple;
+
+      @media (min-width: 768px) {
+          display: flex;
+          justify-content: center;
+      }
+
+      @media (min-width: 1200px) {
+          display: flex;
+          justify-content: flex-start;
+          background-color: green;
+      }
   }
 
   &__text {
@@ -121,5 +164,16 @@
       letter-spacing: 3px;
       font-size: 15px;
       line-height: 2;
+
+      @media (min-width: 768px) {
+          width: 400px;
+          //background-color: yellow;
+      }
+
+      @media (min-width: 1200px) {
+          width: 40%;
+          background-color: crimson;
+      }
+
   }
 }

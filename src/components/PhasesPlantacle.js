@@ -36,6 +36,7 @@ class IntroPlantacle extends React.Component {
                     <h5 className="phases-plantacle__bin-title"> PHASE 4 </h5>
                     <div className="phases-plantacle__bin4-img"> </div>
                 </div>
+                
             </div>
 
             <div className="phases-plantacle__text-wrapper">
