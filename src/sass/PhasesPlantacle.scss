@@ -1,0 +1,125 @@
+.phases-plantacle {
+  width: 100%;
+  position: absolute;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  top: 1000px;
+  height: 1900px;
+  background-color: pink;
+
+  @media (min-width: 768px) {
+      height: 2048px;
+  }
+
+  @media (min-width: 1024px) {
+      height: 650px;
+  }
+
+  @media (min-width: 1200px) {
+      height: 700px;
+  }
+
+  &__pagenumber-wrapper {
+      width: 100%;
+      background-color: crimson;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 25px;
+  }
+
+  &__title-wrapper {
+      width: 100%;
+      background-color: green;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  &__title {
+      font-family: 'Lora', sans-serif;
+      font-weight: 700;
+      font-size: 45px;
+      color: #33338E;
+      letter-spacing: 3px;
+  }
+
+  &__bins-wrapper {
+      width: 100%;
+      height: auto;
+      background-color: yellow;
+  }
+
+  &__bin {
+      width: 100%;
+      margin-bottom: 50px;
+      background-color: grey;
+
+
+  }
+
+  &__bin-title {
+      color: #362F7F;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 3px;
+      font-size: 15px;
+      margin-bottom: 20px;
+
+      @media (min-width: 768px) {
+          font-size: 25px;
+          width: 200px;
+          background-color: brown;
+      }
+  }
+
+  &__bin1-img, &__bin2-img, &__bin3-img, &__bin4-img {
+      background-size: 230px 270px;
+      background-repeat: no-repeat;
+      width: 230px;
+      height: 270px;
+      background-color: blue;
+      margin: 0 auto;
+
+      @media (min-width: 768px) {
+          background-size: 330px 370px;
+          background-repeat: no-repeat;
+          width: 330px;
+          height: 370px;
+      }
+
+  }
+
+  &__bin1-img {
+      background-image: url("../images/phase--1.png");
+
+      @media (min-width: 768px) {
+
+      }
+  }
+
+  &__bin2-img {
+      background-image: url("../images/phase--2.png");
+  }
+
+  &__bin3-img {
+      background-image: url("../images/phase--3.png");
+  }
+
+  &__bin4-img {
+      background-image: url("../images/phase--4.png");
+  }
+
+  &__text-wrapper {
+      width: 100%;
+      background-color: purple;
+  }
+
+  &__text {
+      color: #362F7F;
+      font-family: 'Lora', sans-serif;
+      letter-spacing: 3px;
+      font-size: 15px;
+      line-height: 2;
+  }
+}
