@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import PageNumber from './PageNumber';
 import SvgBackbutton from './svg/Backbutton'
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 // components
@@ -11,9 +12,9 @@ class IntroPlantacle extends React.Component {
     return (
         <section className="intro-plantacle">
 
-                <div className="intro-plantacle__svg-wrapper">
+                <Link to="/#section1" className="intro-plantacle__svg-wrapper">
                     <SvgBackbutton> </SvgBackbutton>
-                </div>
+                </Link>
                 <div className="intro-plantacle__pagenumber-wrapper">
                     <PageNumber title="plantacle" count="02.1"> </PageNumber>
                 </div>

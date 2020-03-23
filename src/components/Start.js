@@ -5,7 +5,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 const Start = () => {
     return(
-        <section className="home">
+        <section className="home" id="section1">
             <div className="home__slime"> </div>
             <div className="home__menu">
                 <ul className="home__menu--list">
