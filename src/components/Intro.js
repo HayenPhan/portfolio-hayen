@@ -4,7 +4,7 @@ import PageNumber from './PageNumber';
 
 const Intro = () => {
     return(
-        <section className="intro">
+        <section className="intro" id="section2">
             <div className="intro__pagenumber--wrapper">
                 <PageNumber title="about me" count="01"> </PageNumber>
             </div>

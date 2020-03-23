@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import SvgArrowDown from './svg/ArrowDown';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Start = () => {
     return(
@@ -8,9 +9,8 @@ const Start = () => {
             <div className="home__slime"> </div>
             <div className="home__menu">
                 <ul className="home__menu--list">
-                    <li className="home__menu--item"> intro </li>
-                    <li className="home__menu--item"> projects </li>
-                    <li className="home__menu--item"> contact </li>
+                    <li className="home__menu--item"> <Link className="home__menu--link" to="#section2"> intro </Link> </li>
+                    <li className="home__menu--item"> <Link className="home__menu--link" to="#section3"> projects </Link> </li>
                 </ul>
             </div>
             <div className="home__info--wrapper">

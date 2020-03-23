@@ -4,7 +4,7 @@ import SvgButton from './svg/Button';
 
 const Project1 = () => {
     return(
-        <section className="firstproject">
+        <section className="firstproject" id="section3">
             <div className="firstproject__pagenumber--wrapper">
                 <PageNumber title="plantacle" count="02"> </PageNumber>
             </div>
