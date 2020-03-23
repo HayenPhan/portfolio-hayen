@@ -23,6 +23,7 @@ class IntroPlantacle extends React.Component {
                     <h5 className="phases-plantacle__bin-title"> PHASE 1 </h5>
                     <div className="phases-plantacle__bin1-img">
                     </div>
+                    <p className="phases-plantacle__text--desktop"> The primary, secondary, finishing and curing stages are the essential stages of composting. In the web-app the compost bin will show up in the right phase based on the day, temperature, humidity and the methane emissions in the bin. </p>
                 </div>
                 <div className="phases-plantacle__bin">
                     <h5 className="phases-plantacle__bin-title"> PHASE 2 </h5>
@@ -36,12 +37,13 @@ class IntroPlantacle extends React.Component {
                     <h5 className="phases-plantacle__bin-title"> PHASE 4 </h5>
                     <div className="phases-plantacle__bin4-img"> </div>
                 </div>
-                
+
             </div>
 
             <div className="phases-plantacle__text-wrapper">
                 <p className="phases-plantacle__text"> The primary, secondary, finishing and curing stages are the essential stages of composting. In the web-app the compost bin will show up in the right phase based on the day, temperature, humidity and the methane emissions in the bin. </p>
             </div>
+
         </section>
     )
   }

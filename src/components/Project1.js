@@ -24,7 +24,7 @@ const Project1 = () => {
                     <div className="firstproject__button-wrapper">
                         <SvgButton className="firstproject__button">
                         </SvgButton>
-                        <p className="firstproject__button-text"> Read more! </p>
+                        <a href="/plantacle" className="firstproject__button-text"> Read more! </a>
                     </div>
                 </div>
             </div>

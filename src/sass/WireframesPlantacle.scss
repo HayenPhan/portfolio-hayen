@@ -1,0 +1,124 @@
+.wireframes-plantacle {
+    width: 100%;
+    position: absolute;
+    //background-color: crimson;
+    top: 2930px;
+    height: 812px;
+
+    @media (min-width: 500px) {
+        top: 2800px;
+    }
+
+    @media (min-width: 768px) {
+        top: 3260px;
+        height: 1480px;
+    }
+
+
+    @media (min-width: 800px) {
+        top: 2370px;
+    }
+
+    @media (min-width: 1024px) {
+        top: 2000px;
+        height: 1366px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    @media (min-width: 1200px) {
+        top: 1400px;
+        height: 700px;
+    }
+
+    &__pagenumber-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            position: absolute;
+            top: 47%;
+            left: 0.5%;
+            transform: rotate(-90deg);
+            width: 100px;
+        }
+    }
+
+    &__blocks-wrapper {
+        display: flex;
+        flex-direction: column;
+
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-top: 80px;
+        }
+
+        @media (min-width: 1200px) {
+            margin-top: 150px;
+            //background-color: purple;
+            flex-wrap: nowrap;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    &__block {
+        height: 650px;
+        width: 100%;
+        //background-color: yellow;
+        margin-bottom: 50px;
+
+        @media (min-width: 768px) {
+            width: 400px;
+            margin: 0 auto;
+            margin-bottom: 80px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 257px;
+            margin: 0 auto;
+            margin-bottom: 80px;
+        }
+
+    }
+
+    &__block-title {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 3px;
+        font-size: 15px;
+        margin-bottom: 20px;
+        color: #33338E;
+    }
+
+    &__wireframe {
+        background-size: 257px 554px;
+        background-repeat: no-repeat;
+        //background-color: grey;
+        width: 257px;
+        height: 554px;
+        margin: 0 auto;
+        box-shadow: 6px 6px 19px -1px rgba(176,176,176,0.51);
+    }
+
+    &__wireframe1 {
+        background-image: url("../images/wireframe--1.png");
+    }
+
+    &__wireframe2 {
+        background-image: url("../images/wireframe--2.png");
+    }
+
+    &__wireframe3 {
+        background-image: url("../images/wireframe--3.png");
+    }
+
+    &__wireframe4 {
+        background-image: url("../images/wireframe--4.png");
+    }
+
+}

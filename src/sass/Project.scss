@@ -175,7 +175,7 @@
         }
     }
 
-    &__button-text {
+    &__button-text, &__button-text:hover {
         position: absolute;
         top: 42%;
         left: 62%;
@@ -185,6 +185,7 @@
         font-size: 13px;
         letter-spacing: 2px;
         color: #fff;
+        text-decoration: none;
     }
 
 

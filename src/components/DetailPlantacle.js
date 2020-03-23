@@ -6,6 +6,7 @@ import { Container } from 'react-bootstrap';
 // components
 import IntroPlantacle from './IntroPlantacle';
 import PhasesPlantacle from './PhasesPlantacle';
+import WireframesPlantacle from './WireframesPlantacle';
 
 
 class DetailPlantacle extends React.Component {
@@ -14,6 +15,7 @@ class DetailPlantacle extends React.Component {
       <Container fluid>
           <IntroPlantacle />
           <PhasesPlantacle />
+          <WireframesPlantacle />
       </Container>
     )
   }

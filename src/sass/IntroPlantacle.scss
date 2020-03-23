@@ -1,14 +1,16 @@
 .intro-plantacle {
     position: relative;
-    height: 1000px;
+    height: 950px;
     width: 100%;
     //background-color: crimson;
     padding-left: 50px; //delete later
     padding-right: 50px; //delete later
     padding-top: 20px;
 
+    //background-color: pink;
+
     @media (min-width: 500px) {
-        height: 860px;
+        height: 900px;
     }
 
     @media (min-width: 768px) {
@@ -31,6 +33,7 @@
         padding-right: 40px;
         display: flex;
         justify-content: center;
+        padding-left: 25px;
 
         @media (min-width: 768px) {
             position: absolute;
@@ -43,7 +46,7 @@
     &__left {
         display: flex;
         width: 100%;
-        //background-color: purple;
+        background-color: purple;
         padding-left: 20px;
         padding-top: 20px;
     }
@@ -78,7 +81,7 @@
         font-size: 45px;
         text-align: center;
         margin-top: 25px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
 
         @media (min-width: 768px) {
             margin-bottom: 100px;
@@ -106,6 +109,11 @@
         //background-color: green;
         height: 150px;
         margin-bottom: 40px;
+        //background-color: purple;
+
+        @media (min-width: 500px) {
+            margin-bottom: 80px;
+        }
 
         @media (min-width: 768px) {
             margin-bottom: 210px;
@@ -127,10 +135,10 @@
         //background-color:grey;
 
         @media (min-width: 500px) {
-            background-size: 301px 150px;
+            background-size: 351px 180px;
             background-repeat: no-repeat;
-            width: 301px;
-            height: 150px;
+            width: 351px;
+            height: 180px;
         }
 
         @media (min-width: 768px) {
@@ -153,10 +161,12 @@
         }
 
         @media (min-width: 1200px) {
-            background-size: 600px 350px;
+            background-size: 600px 310px;
             background-repeat: no-repeat;
             width: 600px;
-            height: 350px;
+            height: 310px;
+            left: 50%;
+            top: 55%;
         }
     }
 
@@ -199,6 +209,11 @@
           transform: translate(-50%, -50%);
           //background-color: pink;
           width: 350px;
+      }
+
+      @media (min-width: 1200px) {
+          left: 40%;
+          width: 400px;
       }
     }
 }

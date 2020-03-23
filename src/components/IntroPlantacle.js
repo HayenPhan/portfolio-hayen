@@ -6,7 +6,6 @@ import SvgBackbutton from './svg/Backbutton'
 
 // components
 
-
 class IntroPlantacle extends React.Component {
   render() {
     return (
@@ -26,8 +25,6 @@ class IntroPlantacle extends React.Component {
             <div className="intro-plantacle__img-wrapper">
                 <div className="intro-plantacle__img"> </div>
             </div>
-
-
 
             <div className="intro-plantacle__text-block">
                 <div className="intro-plantacle__text-wrapper">
