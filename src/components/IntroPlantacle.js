@@ -10,7 +10,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 class IntroPlantacle extends React.Component {
   render() {
     return (
-        <section className="intro-plantacle">
+        <section className="intro-plantacle" id="plantacle1">
 
                 <Link to="/#section1" className="intro-plantacle__svg-wrapper">
                     <SvgBackbutton> </SvgBackbutton>

@@ -1,6 +1,7 @@
 import React from 'react';
 import PageNumber from './PageNumber';
 import SvgButton from './svg/Button';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Project1 = () => {
     return(
@@ -24,7 +25,7 @@ const Project1 = () => {
                     <div className="firstproject__button-wrapper">
                         <SvgButton className="firstproject__button">
                         </SvgButton>
-                        <a href="/plantacle" className="firstproject__button-text"> Read more! </a>
+                        <Link to="/plantacle/#plantacle1" className="firstproject__button-text"> Read more! </Link>
                     </div>
                 </div>
             </div>

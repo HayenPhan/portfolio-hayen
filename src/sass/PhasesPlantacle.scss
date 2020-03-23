@@ -6,7 +6,7 @@
   padding-top: 20px;
   top: 950px;
   height: 1900px;
-  //background-color: green;
+  //background-color: yellow;
 
   @media (min-width: 500px) {
       top: 900px;
@@ -25,7 +25,7 @@
 
   @media (min-width: 1024px) {
       height: 1350px;
-      top: 650px;
+      top: 720px;
   }
 
   @media (min-width: 1200px) {
@@ -42,7 +42,7 @@
 
       @media (min-width: 768px) {
           position: absolute;
-          top: 50%;
+          top: 60%;
           transform: rotate(-90deg);
           left: -46%;
       }
@@ -86,23 +86,24 @@
 
   &__bin {
       width: 100%;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
       //background-color: grey;
 
       @media (min-width: 768px) {
           width: 350px;
           margin: 0 auto;
-          margin-bottom: 70px;
+          margin-bottom: 150px;
       }
 
-      @media (min-width: 1145px) {
+      @media (min-width: 1024px) {
           width: 400px;
+          //background-color:grey;
       }
-
 
       @media (min-width: 1200px) {
           width: 240px;
           position: relative;
+
       }
   }
 
@@ -112,19 +113,21 @@
       font-family: 'Poppins', sans-serif;
       letter-spacing: 3px;
       font-size: 15px;
-      margin-bottom: 20px;
+      margin-bottom: 50px;
+      font-weight: 700;
 
       @media (min-width: 768px) {
           font-size: 20px;
           //background-color: brown;
+          margin-bottom: 70px;
       }
 
       @media (min-width: 1200px) {
           font-size: 15px;
           //background-color: brown;
           position: absolute;
-          bottom: -80px;
-          left: 120px;
+          bottom: -120px;
+          left: 85px;
       }
   }
 
@@ -215,7 +218,7 @@
           //background-color: crimson;
           display: block;
           position: absolute;
-          bottom: -300px;
+          bottom: -230px;
           width: 600px;
           color: #362F7F;
           font-family: 'Lora', sans-serif;

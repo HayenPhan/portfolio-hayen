@@ -2,15 +2,15 @@
     width: 100%;
     position: absolute;
     //background-color: crimson;
-    top: 2930px;
+    top: 3160px;
     height: 812px;
 
     @media (min-width: 500px) {
-        top: 2800px;
+        top: 3050px;
     }
 
     @media (min-width: 768px) {
-        top: 3260px;
+        top: 3450px;
         height: 1480px;
     }
 
@@ -54,7 +54,7 @@
         @media (min-width: 768px) {
             flex-direction: row;
             flex-wrap: wrap;
-            margin-top: 80px;
+            margin-top: 190px;
         }
 
         @media (min-width: 1200px) {
@@ -63,6 +63,7 @@
             flex-wrap: nowrap;
             padding-left: 20px;
             padding-right: 20px;
+            margin-top: 80px;
         }
     }
 
@@ -91,6 +92,7 @@
         font-family: 'Poppins', sans-serif;
         letter-spacing: 3px;
         font-size: 15px;
+        font-weight: 700;
         margin-bottom: 20px;
         color: #33338E;
     }
