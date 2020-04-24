@@ -4,9 +4,9 @@ import { Container } from 'react-bootstrap';
 
 
 // components
-import IntroPlantacle from './IntroPlantacle';
-import PhasesPlantacle from './PhasesPlantacle';
-import WireframesPlantacle from './WireframesPlantacle';
+import IntroPlantacle from './sections/IntroPlantacle';
+import PhasesPlantacle from './sections/PhasesPlantacle';
+import WireframesPlantacle from './sections/WireframesPlantacle';
 
 
 class DetailPlantacle extends React.Component {

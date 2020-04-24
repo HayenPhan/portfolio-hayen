@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import PageNumber from './PageNumber';
-import SvgBackbutton from './svg/Backbutton'
+import PageNumber from './../../../components/atoms/PageNumber';
+import SvgBackbutton from './../../../components/svg/Backbutton';
 import { HashLink as Link } from 'react-router-hash-link';
 
 

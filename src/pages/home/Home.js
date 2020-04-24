@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import SvgArrowDown from './svg/ArrowDown';
+import SvgArrowDown from '../../components/svg/ArrowDown';
 
 
 // components
 
-import Start from './Start';
-import Intro from './Intro';
-import Project1 from './Project1';
+import Start from './sections/Start';
+import Intro from './sections/Intro';
+import Project1 from './sections/Project1';
 
 
 class Home extends React.Component {

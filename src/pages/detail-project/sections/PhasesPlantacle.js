@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import PageNumber from './PageNumber';
+import PageNumber from './../../../components/atoms/PageNumber';
 
 
 // components

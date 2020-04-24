@@ -5,8 +5,8 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Home from './Home';
-import DetailPlantacle from './DetailPlantacle';
+import Home from './../pages/home/Home';
+import DetailPlantacle from '../pages/detail-project/DetailPlantacle';
 
 class App extends React.Component {
     render() {

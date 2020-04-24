@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import PageNumber from './PageNumber';
+import PageNumber from './../../../components/atoms/PageNumber';
 
 const Intro = () => {
     return(

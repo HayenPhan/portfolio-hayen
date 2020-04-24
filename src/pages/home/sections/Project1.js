@@ -1,7 +1,7 @@
 import React from 'react';
-import PageNumber from './PageNumber';
-import Mockup from './atoms/Mockup';
-import ProjectText from './molecules/ProjectText';
+import PageNumber from './../../../components/atoms/PageNumber';
+import Mockup from './../../../components/atoms/Mockup';
+import ProjectText from './../../../components/molecules/ProjectText';
 
 const Project1 = (props) => {
     return(

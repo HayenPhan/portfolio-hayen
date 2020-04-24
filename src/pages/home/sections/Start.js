@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import SvgArrowDown from './svg/ArrowDown';
+import SvgArrowDown from './../../../components/svg/ArrowDown';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Start = () => {

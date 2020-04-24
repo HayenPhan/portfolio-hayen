@@ -1,5 +1,5 @@
 import React from 'react';
-import PageNumber from './PageNumber';
+import PageNumber from './../../../components/atoms/PageNumber';
 
 
 // components
