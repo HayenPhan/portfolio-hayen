@@ -7,7 +7,7 @@ import SvgArrowDown from '../../components/svg/ArrowDown';
 
 import Start from './sections/Start';
 import Intro from './sections/Intro';
-import Project1 from './sections/Project1';
+import Project from './sections/Project';
 
 
 class Home extends React.Component {
@@ -16,7 +16,8 @@ class Home extends React.Component {
       <Container fluid>
           <Start> </Start>
           <Intro></Intro>
-          <Project1 title="Plantacle" text=" An app for monotoring the compost process in smaller households."> </Project1>
+          <Project title="Plantacle" text=" An app for monotoring the compost process in smaller households."> </Project>
+          <Project title="Banzai" text="An app for employees and managers to manage vacation days"> </Project>
       </Container>
     )
   }

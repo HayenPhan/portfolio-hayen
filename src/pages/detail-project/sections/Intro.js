@@ -18,9 +18,6 @@ class IntroPlantacle extends React.Component {
                 <div className="intro-plantacle__pagenumber-wrapper">
                     <PageNumber title="plantacle" count="02.1"> </PageNumber>
                 </div>
-
-
-
             <h2 className="intro-plantacle__title--mobile"> Plantacle </h2>
 
             <div className="intro-plantacle__img-wrapper">

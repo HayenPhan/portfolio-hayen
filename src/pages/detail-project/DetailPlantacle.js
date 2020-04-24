@@ -4,18 +4,18 @@ import { Container } from 'react-bootstrap';
 
 
 // components
-import IntroPlantacle from './sections/IntroPlantacle';
+import Intro from './sections/Intro';
 import PhasesPlantacle from './sections/PhasesPlantacle';
-import WireframesPlantacle from './sections/WireframesPlantacle';
+import Wireframes from './sections/Wireframes';
 
 
 class DetailPlantacle extends React.Component {
   render() {
     return (
       <Container fluid>
-          <IntroPlantacle />
+          <Intro />
           <PhasesPlantacle />
-          <WireframesPlantacle />
+          <Wireframes />
       </Container>
     )
   }

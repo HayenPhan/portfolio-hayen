@@ -3,14 +3,14 @@ import PageNumber from './../../../components/atoms/PageNumber';
 import Mockup from './../../../components/atoms/Mockup';
 import ProjectText from './../../../components/molecules/ProjectText';
 
-const Project1 = (props) => {
+const Project = (props) => {
     return(
         <section className="project" id="section3">
             <div className="project__pagenumber--wrapper">
                 <PageNumber title="plantacle" count="02"> </PageNumber>
             </div>
             <h2 className="project__title"> {props.title} </h2>
-            <Mockup />
+            <Mockup title={props.title}> </Mockup>
             <div className="project__right-block">
                 <ProjectText title={props.title} text={props.text}> </ProjectText>
             </div>
@@ -19,4 +19,4 @@ const Project1 = (props) => {
     )
 };
 
-export default Project1;
+export default Project;
