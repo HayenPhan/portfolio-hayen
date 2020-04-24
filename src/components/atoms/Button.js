@@ -9,7 +9,6 @@ const Button = () => {
             </SvgButton>
             <Link to="/plantacle/#plantacle1" className="project__button-text"> Read more! </Link>
         </span>
-
     )
 };
 
