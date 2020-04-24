@@ -16,7 +16,8 @@ class Home extends React.Component {
       <Container fluid>
           <Start> </Start>
           <Intro></Intro>
-          <Project1> </Project1>
+          <Project1>
+          </Project1>
       </Container>
     )
   }
