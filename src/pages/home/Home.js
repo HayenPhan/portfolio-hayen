@@ -16,8 +16,33 @@ class Home extends React.Component {
       <Container fluid>
           <Start> </Start>
           <Intro></Intro>
-          <Project title="Plantacle" text=" An app for monotoring the compost process in smaller households." widthPlantacle="608px" heightPlantacle="597px"> </Project>
-          <Project title="Banzai" text="An app for employees and managers to manage vacation days" widthBanzai="708px" heightBanzai="697px"> </Project>
+          <Project
+            title="Plantacle"
+            text=" An app for monotoring the compost process in smaller households."
+            count="01"
+            widthPlantacle="608px"
+            heightPlantacle="597px"
+            topXxs="1670px"
+            topXs="1750px"
+            topSm="2050px"
+            topMd="1300px"
+            topLg="1400px"
+            >
+          </Project>
+          <Project
+            className="projectbanzai"
+            title="Banzai"
+            text="An app for employees and managers to manage vacation days"
+            count="02"
+            widthBanzai="708px"
+            heightBanzai="697px"
+            topXxs="2500px"
+            topXs="2680px"
+            topSm="3050px"
+            topMd="1300px"
+            topLg="1400px"
+            >
+            </Project>
       </Container>
     )
   }
