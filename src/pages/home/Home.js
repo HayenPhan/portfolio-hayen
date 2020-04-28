@@ -16,8 +16,8 @@ class Home extends React.Component {
       <Container fluid>
           <Start> </Start>
           <Intro></Intro>
-          <Project title="Plantacle" text=" An app for monotoring the compost process in smaller households."> </Project>
-          <Project title="Banzai" text="An app for employees and managers to manage vacation days"> </Project>
+          <Project title="Plantacle" text=" An app for monotoring the compost process in smaller households." widthPlantacle="608px" heightPlantacle="597px"> </Project>
+          <Project title="Banzai" text="An app for employees and managers to manage vacation days" widthBanzai="708px" heightBanzai="697px"> </Project>
       </Container>
     )
   }

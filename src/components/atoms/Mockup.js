@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import imgPlantacle from '../../images/iphone_mockup.png';
+import imgBanzai from '../../images/macbook_mockup.png';
 
 const MockupImage = styled.div`
-    background-image: url(${props => props.title === 'Plantacle' ? imgPlantacle : '40px'});
+    background-image: url(${props => props.title === 'Plantacle' ? imgPlantacle : imgBanzai });
     background-size: 278px 287px;
     background-repeat: no-repeat;
     width: 100%;
@@ -35,16 +36,16 @@ const MockupImage = styled.div`
     }
 
     @media (min-width: 1200px) {
-        background-size: 608px 597px;
-        width: 608px;
-        height: 597px;
+        background-size: ${(props) => props.title === 'Plantacle' ? props.widthPlantacle : props.widthBanzai} ${(props) => props.title === 'Plantacle' ? props.heightPlantacle : props.heightBanzai};
+        width: ${(props) => props.title === 'Plantacle' ? props.widthPlantacle : props.widthBanzai};
+        height: ${(props) => props.title === 'Plantacle' ? props.heightPlantacle : props.heightBanzai};
     }
 `;
 
 const Mockup = (props) => {
     return(
         <div className="mockup-wrapper">
-            <MockupImage title={props.title}>
+            <MockupImage title={props.title} widthPlantacle={props.widthPlantacle} widthBanzai={props.widthBanzai} heightPlantacle={props.heightPlantacle} heightBanzai={props.heightBanzai}>
             </MockupImage>
         </div>
     )
