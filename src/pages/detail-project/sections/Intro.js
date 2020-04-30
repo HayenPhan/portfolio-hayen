@@ -7,8 +7,8 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 // components
 
-class IntroPlantacle extends React.Component {
-  render() {
+class Intro extends React.Component {
+  render(props) {
     return (
         <section className="intro-plantacle" id="plantacle1">
 
@@ -18,7 +18,7 @@ class IntroPlantacle extends React.Component {
                 <div className="intro-plantacle__pagenumber-wrapper">
                     <PageNumber title="plantacle" count="02.1"> </PageNumber>
                 </div>
-            <h2 className="intro-plantacle__title--mobile"> Plantacle </h2>
+            <h2 className="intro-plantacle__title--mobile"> {this.props.title} </h2>
 
             <div className="intro-plantacle__img-wrapper">
                 <div className="intro-plantacle__img"> </div>
@@ -26,9 +26,9 @@ class IntroPlantacle extends React.Component {
 
             <div className="intro-plantacle__text-block">
                 <div className="intro-plantacle__text-wrapper">
-                    <h2 className="intro-plantacle__title--desktop"> Plantacle </h2>
+                    <h2 className="intro-plantacle__title--desktop"> {this.props.title} </h2>
                     <p className="intro-plantacle__text">
-                    The concept is a compact, smart composting module that is used in combination with a web app to track the status of the compost bins located in Blue City, Rotterdam. The module can be placed in the compost bins with the aim of managing the bin. With sensors measurements can be made in the compost bin that read the temperature, humidity and emissions of methane gas in the web app. It will let you know which tasks you need to complete in order to maintain the compost bin.
+                      {this.props.text}
                     </p>
                 </div>
             </div>
@@ -38,4 +38,4 @@ class IntroPlantacle extends React.Component {
   }
 }
 
-export default IntroPlantacle;
+export default Intro;

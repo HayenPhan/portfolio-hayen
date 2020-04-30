@@ -7,7 +7,7 @@ const ProjectText = (props) => {
           <h2 className="project__title--desktop"> {props.title} </h2>
           <h2 className="project__text"> {props.text} </h2>
           <div className="project__button-wrapper">
-              <Button />
+              <Button buttonLink={props.buttonLink}/>
           </div>
       </div>
     )

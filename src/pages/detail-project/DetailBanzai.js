@@ -3,13 +3,15 @@ import { Container } from 'react-bootstrap';
 
 // components
 
+import Intro from './sections/Intro';
+
 
 
 class DetailBanzai extends React.Component {
   render() {
     return (
       <Container fluid>
-         banzai
+          <Intro title="Banzai" />
       </Container>
     )
   }
