@@ -11,7 +11,7 @@ class IntroPlantacle extends React.Component {
     return (
         <section className="phases-plantacle">
             <div className="phases-plantacle__pagenumber-wrapper">
-                <PageNumber title="plantacle" count="02.2" className="phases-plantacle__pagenumber"> </PageNumber>
+                <PageNumber title="plantacle" count="01.2" className="phases-plantacle__pagenumber"> </PageNumber>
             </div>
 
             <div className="phases-plantacle__title-wrapper">

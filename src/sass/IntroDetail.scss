@@ -1,4 +1,4 @@
-.intro-plantacle {
+.intro-detail {
     position: relative;
     height: 950px;
     width: 100%;
@@ -122,51 +122,6 @@
         @media (min-width: 1024px) {
             height: 100%;
             position: relative;
-        }
-    }
-
-    &__img {
-        background-image: url("../images/tropicana.png");
-        background-size: 281px 130px;
-        background-repeat: no-repeat;
-        width: 281px;
-        height: 130px;
-        margin: 0 auto;
-        //background-color:grey;
-
-        @media (min-width: 500px) {
-            background-size: 351px 180px;
-            background-repeat: no-repeat;
-            width: 351px;
-            height: 180px;
-        }
-
-        @media (min-width: 768px) {
-            background-size: 550px 250px;
-            background-repeat: no-repeat;
-            width: 550px;
-            height: 250px;
-        }
-
-        @media (min-width: 1024px) {
-            background-size: 500px 250px;
-            background-repeat: no-repeat;
-            width: 500px;
-            height: 250px;
-
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        @media (min-width: 1200px) {
-            background-size: 600px 310px;
-            background-repeat: no-repeat;
-            width: 600px;
-            height: 310px;
-            left: 50%;
-            top: 55%;
         }
     }
 

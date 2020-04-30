@@ -9,7 +9,7 @@ class WireframesPlantacle extends React.Component {
     return (
         <section className="wireframes-plantacle">
             <div className="wireframes-plantacle__pagenumber-wrapper">
-                <PageNumber title="plantacle" count="02.3" className="wireframes-plantacle__pagenumber"> </PageNumber>
+                <PageNumber title="plantacle" count="01.3" className="wireframes-plantacle__pagenumber"> </PageNumber>
             </div>
 
             <div className="wireframes-plantacle__blocks-wrapper">

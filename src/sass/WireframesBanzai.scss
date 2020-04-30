@@ -1,0 +1,129 @@
+.wireframes-banzai {
+    width: 100%;
+    position: absolute;
+    //background-color: crimson;
+    top: 700px;
+    height: 812px;
+
+    @media (min-width: 768px) {
+        top: 800px;
+    }
+
+    @media (min-width: 1024px) {
+       top: 650px;
+    }
+
+    @media (min-width: 1200px) {
+       top: 750px;
+    }
+
+    &__pagenumber-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        width: 100%;
+
+        @media (min-width: 768px) {
+            position: absolute;
+            top: 47%;
+            left: 0.5%;
+            transform: rotate(-90deg);
+            width: 100px;
+        }
+    }
+
+    &__blocks-wrapper {
+        display: flex;
+        flex-direction: column;
+        //background-color: green;
+
+
+        @media (min-width: 768px) {
+
+        }
+
+        @media (min-width: 1200px) {
+            //background-color: purple;
+            //flex-wrap: nowrap;
+
+        }
+    }
+
+    &__block {
+        height: 200px;
+        width: 100%;
+        //background-color: yellow;
+        margin-bottom: 150px;
+
+        @media (min-width: 768px) {
+          margin-bottom: 300px;
+        }
+
+        @media (min-width: 1024px) {
+          margin-bottom: 400px;
+        }
+
+        @media (min-width: 1200px) {
+          margin-bottom: 500px;
+        }
+
+    }
+
+    &__block-title {
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 3px;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        color: #33338E;
+    }
+
+    &__wireframe {
+        background-size: contain;
+        background-repeat: no-repeat;
+        //background-color: grey;
+        width: 340px;
+        height: 190px;
+        margin: 0 auto;
+        box-shadow: 6px 6px 19px -1px rgba(176,176,176,0.51);
+
+        @media (min-width: 500px) {
+          width: 440px;
+          height: 240px;
+        }
+
+        @media (min-width: 768px) {
+            width: 540px;
+            height: 340px;
+        }
+
+        @media (min-width: 1024px) {
+            width: 710px;
+            height: 400px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 840px;
+            height: 470px;
+        }
+
+    }
+
+    &__wireframe1 {
+        background-image: url("../images/wireframebanzai--1.png");
+    }
+
+    &__wireframe2 {
+        background-image: url("../images/wireframebanzai--2.png");
+    }
+
+    &__wireframe3 {
+        background-image: url("../images/wireframebanzai--3.png");
+    }
+
+    &__wireframe4 {
+        background-image: url("../images/wireframebanzai--4.png");
+    }
+
+}
