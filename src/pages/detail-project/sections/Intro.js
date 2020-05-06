@@ -56,7 +56,7 @@ const DetailImg = styled.div`
 class Intro extends React.Component {
   render(props) {
     return (
-        <section className="intro-detail" id="plantacle1">
+        <section className="intro-detail" id={this.props.id}>
                 <Link to="/#section1" className="intro-detail__svg-wrapper">
                     <SvgBackbutton> </SvgBackbutton>
                 </Link>

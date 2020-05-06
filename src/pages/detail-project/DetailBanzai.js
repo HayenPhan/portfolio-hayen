@@ -16,6 +16,7 @@ class DetailBanzai extends React.Component {
            text="Banzai is a planning system in which employees can view their planning and make vacation requests. The admin has a separate account where they can schedule employees and accept or decline vacation requests."
            countTitle="banzai"
            count="0.2.1"
+           id="banzai1"
           />
           <WireframesBanzai />
       </Container>
