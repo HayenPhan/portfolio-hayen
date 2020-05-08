@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-hayen/static/css/main.181fc5a5.chunk.css",
+    "main.js": "/portfolio-hayen/static/js/main.14375d2c.chunk.js",
+    "main.js.map": "/portfolio-hayen/static/js/main.14375d2c.chunk.js.map",
+    "runtime-main.js": "/portfolio-hayen/static/js/runtime-main.3400913e.js",
+    "runtime-main.js.map": "/portfolio-hayen/static/js/runtime-main.3400913e.js.map",
+    "static/css/2.de424728.chunk.css": "/portfolio-hayen/static/css/2.de424728.chunk.css",
+    "static/js/2.ff78d5fb.chunk.js": "/portfolio-hayen/static/js/2.ff78d5fb.chunk.js",
+    "static/js/2.ff78d5fb.chunk.js.map": "/portfolio-hayen/static/js/2.ff78d5fb.chunk.js.map",
+    "index.html": "/portfolio-hayen/index.html",
+    "precache-manifest.29d0d18612767881b1368a3af884c21d.js": "/portfolio-hayen/precache-manifest.29d0d18612767881b1368a3af884c21d.js",
+    "service-worker.js": "/portfolio-hayen/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/portfolio-hayen/static/css/2.de424728.chunk.css.map",
+    "static/css/main.181fc5a5.chunk.css.map": "/portfolio-hayen/static/css/main.181fc5a5.chunk.css.map",
+    "static/js/2.ff78d5fb.chunk.js.LICENSE.txt": "/portfolio-hayen/static/js/2.ff78d5fb.chunk.js.LICENSE.txt",
+    "static/media/banzai.png": "/portfolio-hayen/static/media/banzai.f21627ff.png",
+    "static/media/App.scss": "/portfolio-hayen/static/media/wireframebanzai--4.9838381e.png",
+    "static/media/macbook_mockup.png": "/portfolio-hayen/static/media/macbook_mockup.c453b16f.png",
+    "static/media/tropicana.png": "/portfolio-hayen/static/media/tropicana.855cec4b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3400913e.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.ff78d5fb.chunk.js",
+    "static/css/main.181fc5a5.chunk.css",
+    "static/js/main.14375d2c.chunk.js"
+  ]
+}
