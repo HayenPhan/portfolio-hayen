@@ -2,6 +2,7 @@ import React from 'react';
 import '../sass/App.scss';
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -12,13 +13,13 @@ import DetailBanzai from '../pages/detail-project/DetailBanzai';
 class App extends React.Component {
     render() {
         return (
-            <Router>
+            <HashRouter>
                 <Switch>
                   <Route exact path="/" component={Home} />
                   <Route path="/plantacle" component={DetailPlantacle} />
                   <Route path="/banzai" component={DetailBanzai} />
                 </Switch>
-            </Router>
+            </HashRouter>
         );
     }
 }
