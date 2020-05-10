@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa07e0df54dbf23eae99e1eac357d829",
+    "revision": "503747d6c7527f4ced61cd64197dba6a",
     "url": "/portfolio-hayen.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "24284a85646538a1ba13",
-    "url": "/portfolio-hayen.github.io/static/css/main.7282b603.chunk.css"
+    "revision": "0f3a8922f2c2f14dad52",
+    "url": "/portfolio-hayen.github.io/static/css/main.5de6ccef.chunk.css"
   },
   {
     "revision": "cd3852c416058b7a726b",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/js/2.318aa67c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24284a85646538a1ba13",
+    "revision": "0f3a8922f2c2f14dad52",
     "url": "/portfolio-hayen.github.io/static/js/main.26ae992a.chunk.js"
   },
   {
@@ -100,19 +100,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/media/wireframe--4.5590c902.png"
   },
   {
-    "revision": "8dca0f60732a95286d6c58ec4bc39598",
-    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--1.8dca0f60.png"
+    "revision": "62d4bf2c4413676ded16c16620dac126",
+    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--1.62d4bf2c.jpg"
   },
   {
-    "revision": "3990e792373fd0e1f329b1c32ee8e313",
-    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--2.3990e792.png"
+    "revision": "c08202f590537954bf7025475d7dc2e1",
+    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--2.c08202f5.jpg"
   },
   {
-    "revision": "3b88cf4ed12e80680e75f4242e1c8b9b",
-    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--3.3b88cf4e.png"
+    "revision": "10336f23c5d55ecbddafedc3973a0a18",
+    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--3.10336f23.jpg"
   },
   {
-    "revision": "9838381e037e3dd234a6921ca3155ac8",
-    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--4.9838381e.png"
+    "revision": "582856f50eab3d9122fcea88edf4ffd0",
+    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--4.582856f5.jpg"
   }
 ]);
