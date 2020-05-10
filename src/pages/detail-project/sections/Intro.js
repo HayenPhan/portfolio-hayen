@@ -5,8 +5,8 @@ import SvgBackbutton from './../../../components/svg/Backbutton';
 import { HashLink as Link } from 'react-router-hash-link';
 import styled from 'styled-components';
 
-import imgDetailPlantacle from './../../../images/tropicana.png';
-import imgDetailBanzai from './../../../images/banzai.png';
+import imgDetailPlantacle from './../../../images/tropicana.jpg';
+import imgDetailBanzai from './../../../images/banzai.jpg';
 
 const DetailImg = styled.div`
     background-image: url(${props => props.title === 'Plantacle' ? imgDetailPlantacle : imgDetailBanzai});

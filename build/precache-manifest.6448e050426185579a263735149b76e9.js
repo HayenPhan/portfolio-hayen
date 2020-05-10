@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6fd7e40e70ace2b013d80276166bdbbe",
+    "revision": "d2943f516149521117232e0ac8f2a16b",
     "url": "/portfolio-hayen.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "02db26e81a9aaa0e5ff4",
-    "url": "/portfolio-hayen.github.io/static/css/main.f87d04e8.chunk.css"
+    "revision": "6aed83d48ee43b917d76",
+    "url": "/portfolio-hayen.github.io/static/css/main.5de6ccef.chunk.css"
   },
   {
     "revision": "cd3852c416058b7a726b",
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/js/2.318aa67c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "02db26e81a9aaa0e5ff4",
-    "url": "/portfolio-hayen.github.io/static/js/main.35a54741.chunk.js"
+    "revision": "6aed83d48ee43b917d76",
+    "url": "/portfolio-hayen.github.io/static/js/main.46553e51.chunk.js"
   },
   {
     "revision": "b6b0882010bf40462b79",
     "url": "/portfolio-hayen.github.io/static/js/runtime-main.7cd1d32c.js"
   },
   {
-    "revision": "f21627ff8000aa4868c6863b0e033df1",
-    "url": "/portfolio-hayen.github.io/static/media/banzai.f21627ff.png"
+    "revision": "d819a366c5daf33db6cf6ce72cf939b3",
+    "url": "/portfolio-hayen.github.io/static/media/banzai.d819a366.jpg"
   },
   {
     "revision": "f48083bee1678665f3ae8d12d97d7ada",
@@ -80,39 +80,39 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/media/slime-specialization--mobile.ba1231c9.png"
   },
   {
-    "revision": "855cec4b0bfd93b1f1f8b9c932a12ba6",
-    "url": "/portfolio-hayen.github.io/static/media/tropicana.855cec4b.png"
+    "revision": "1a551b7e773908d78fa21255d8f4fd0f",
+    "url": "/portfolio-hayen.github.io/static/media/tropicana.1a551b7e.jpg"
   },
   {
-    "revision": "e18363098ade97e10b8fce32ccad58a6",
-    "url": "/portfolio-hayen.github.io/static/media/wireframe--1.e1836309.png"
+    "revision": "10e3878c7aa2ffc9cee9b2552069f12f",
+    "url": "/portfolio-hayen.github.io/static/media/wireframe--1.10e3878c.png"
   },
   {
-    "revision": "b82b202869946290c79187c0c304cccb",
-    "url": "/portfolio-hayen.github.io/static/media/wireframe--2.b82b2028.png"
+    "revision": "ff72fcc9ebdbb71e3107ce1ac2e9e46f",
+    "url": "/portfolio-hayen.github.io/static/media/wireframe--2.ff72fcc9.png"
   },
   {
-    "revision": "4bd8588f178650e6abda245df274e23a",
-    "url": "/portfolio-hayen.github.io/static/media/wireframe--3.4bd8588f.png"
+    "revision": "c9f735ce5e8c7f5df8893054604b7052",
+    "url": "/portfolio-hayen.github.io/static/media/wireframe--3.c9f735ce.png"
   },
   {
-    "revision": "31b50a790ea95062d3eca48ef25c7e9c",
-    "url": "/portfolio-hayen.github.io/static/media/wireframe--4.31b50a79.png"
+    "revision": "5590c9026bf015b0e2927343dd5d631f",
+    "url": "/portfolio-hayen.github.io/static/media/wireframe--4.5590c902.png"
   },
   {
-    "revision": "8dca0f60732a95286d6c58ec4bc39598",
-    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--1.8dca0f60.png"
+    "revision": "62d4bf2c4413676ded16c16620dac126",
+    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--1.62d4bf2c.jpg"
   },
   {
-    "revision": "3990e792373fd0e1f329b1c32ee8e313",
-    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--2.3990e792.png"
+    "revision": "c08202f590537954bf7025475d7dc2e1",
+    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--2.c08202f5.jpg"
   },
   {
-    "revision": "3b88cf4ed12e80680e75f4242e1c8b9b",
-    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--3.3b88cf4e.png"
+    "revision": "10336f23c5d55ecbddafedc3973a0a18",
+    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--3.10336f23.jpg"
   },
   {
-    "revision": "9838381e037e3dd234a6921ca3155ac8",
-    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--4.9838381e.png"
+    "revision": "582856f50eab3d9122fcea88edf4ffd0",
+    "url": "/portfolio-hayen.github.io/static/media/wireframebanzai--4.582856f5.jpg"
   }
 ]);
