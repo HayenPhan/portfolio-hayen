@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c755a76ca89409c465a8161618a07177",
+    "revision": "5bd48e9e39f264ddbb0d6250827b3f82",
     "url": "/portfolio-hayen.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "3840f9344b76f280acb3",
+    "revision": "caa75071db8feb866c49",
     "url": "/portfolio-hayen.github.io/static/css/main.f87d04e8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/js/2.318aa67c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3840f9344b76f280acb3",
-    "url": "/portfolio-hayen.github.io/static/js/main.60f374b4.chunk.js"
+    "revision": "caa75071db8feb866c49",
+    "url": "/portfolio-hayen.github.io/static/js/main.639e2515.chunk.js"
   },
   {
     "revision": "b6b0882010bf40462b79",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/media/slime-specialization--mobile.ba1231c9.png"
   },
   {
-    "revision": "a76a11003171fe1a7b2a980612836d96",
-    "url": "/portfolio-hayen.github.io/static/media/tropicana.a76a1100.png"
+    "revision": "f78018f99e64d89bbfd08b08e86b5aab",
+    "url": "/portfolio-hayen.github.io/static/media/tropicana.f78018f9.png"
   },
   {
     "revision": "e18363098ade97e10b8fce32ccad58a6",
