@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ffc7a57589432e0e0bcd5ecb41c65e8",
+    "revision": "9a00ef1508346ee802a1fee7c009ef98",
     "url": "/portfolio-hayen.github.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "9c223b559ecb0afa7379",
-    "url": "/portfolio-hayen.github.io/static/css/main.f87d04e8.chunk.css"
+    "revision": "e03960b3619228e41bb9",
+    "url": "/portfolio-hayen.github.io/static/css/main.7282b603.chunk.css"
   },
   {
     "revision": "cd3852c416058b7a726b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/js/2.318aa67c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9c223b559ecb0afa7379",
-    "url": "/portfolio-hayen.github.io/static/js/main.10ae6167.chunk.js"
+    "revision": "e03960b3619228e41bb9",
+    "url": "/portfolio-hayen.github.io/static/js/main.19ba1b1d.chunk.js"
   },
   {
     "revision": "b6b0882010bf40462b79",
@@ -80,24 +80,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-hayen.github.io/static/media/slime-specialization--mobile.ba1231c9.png"
   },
   {
-    "revision": "62a200ec0c4351085b694ecacc35362a",
-    "url": "/portfolio-hayen.github.io/static/media/tropicana.62a200ec.png"
+    "revision": "2ae3e38308504fd269cf154771c9b645",
+    "url": "/portfolio-hayen.github.io/static/media/tropicana.2ae3e383.png"
   },
   {
-    "revision": "e18363098ade97e10b8fce32ccad58a6",
-    "url": "/portfolio-hayen.github.io/static/media/wireframe--1.e1836309.png"
+    "revision": "10e3878c7aa2ffc9cee9b2552069f12f",
+    "url": "/portfolio-hayen.github.io/static/media/wireframe--1.10e3878c.png"
   },
   {
-    "revision": "b82b202869946290c79187c0c304cccb",
-    "url": "/portfolio-hayen.github.io/static/media/wireframe--2.b82b2028.png"
+    "revision": "ff72fcc9ebdbb71e3107ce1ac2e9e46f",
+    "url": "/portfolio-hayen.github.io/static/media/wireframe--2.ff72fcc9.png"
   },
   {
-    "revision": "4bd8588f178650e6abda245df274e23a",
-    "url": "/portfolio-hayen.github.io/static/media/wireframe--3.4bd8588f.png"
+    "revision": "c9f735ce5e8c7f5df8893054604b7052",
+    "url": "/portfolio-hayen.github.io/static/media/wireframe--3.c9f735ce.png"
   },
   {
-    "revision": "31b50a790ea95062d3eca48ef25c7e9c",
-    "url": "/portfolio-hayen.github.io/static/media/wireframe--4.31b50a79.png"
+    "revision": "5590c9026bf015b0e2927343dd5d631f",
+    "url": "/portfolio-hayen.github.io/static/media/wireframe--4.5590c902.png"
   },
   {
     "revision": "8dca0f60732a95286d6c58ec4bc39598",
