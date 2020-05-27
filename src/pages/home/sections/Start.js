@@ -21,7 +21,7 @@ const Start = () => {
                         </div>
                         <Col className="home__info--spec">
                             <div className="home__specialization">
-                                <p className="home__specialization-title"> UI/UX </p>
+                                <p className="home__specialization-title"> front-end </p>
                             </div>
                         </Col>
                     </Row>
