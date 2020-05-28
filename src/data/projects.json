@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "title": "Plantacle",
+      "id": "plantacle1",
+      "intro_text": "An app for monotoring the compost process in smaller households.",
+      "project_text": "The concept is a compact, smart composting module that is used in combination with a web app to track the status of the compost bins located in Blue City, Rotterdam. The module can be placed in the compost bins with the aim of managing the bin. With sensors measurements can be made in the compost bin that read the temperature, humidity and emissions of methane gas in the web app. It will let you know which tasks you need to complete in order to maintain the compost bin.",
+      "count": "01",
+      "project_count": "0.1.1",
+      "project_count_title": "plantacle",
+      "button_link": "/plantacle/#plantacle1",
+      "width": "608px",
+      "height": "597px",
+      "topXxs":"1670px",
+      "topXs":"1750px",
+      "topSm":"2050px",
+      "topMd":"1300px",
+      "topLg":"1400px",
+      "code": {
+        "rgba": [255,255,255,1],
+        "hex": "#000"
+      }
+    },
+    {
+      "title": "Banzai",
+      "id": "banzai1",
+      "intro_text": "An app for employees and managers to manage vacation days",
+      "project_text": "Banzai is a planning system in which employees can view their planning and make vacation requests. The admin has a separate account where they can schedule employees and accept or decline vacation requests.",
+      "count": "02",
+      "project_count": "0.2.1",
+      "project_count_title": "banzai",
+      "button_link": "/banzai/#banzai1",
+      "width": "708px",
+      "height": "697px",
+      "topXxs"="2500px",
+      "topXs"="2680px",
+      "topSm"="3050px",
+      "topMd"="1300px",
+      "topLg"="1400px"
+    },
+  ]
+}
