@@ -75,6 +75,7 @@ class Intro extends React.Component {
                     <p className="intro-detail__text">
                       {this.props.text}
                     </p>
+                    <a href={this.props.githubLink} className="intro-detail__link">View this project on Github</a>
                 </div>
             </div>
         </section>

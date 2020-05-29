@@ -17,6 +17,7 @@ class DetailBanzai extends React.Component {
            countTitle="banzai"
            count="0.2.1"
            id="banzai1"
+           githubLink="https://github.com/HayenPhan/banzai-scheduler"
           />
           <WireframesBanzai />
       </Container>
