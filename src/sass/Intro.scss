@@ -55,7 +55,6 @@
         padding-top: 20px;
         padding-bottom: 20px;
         line-height: 2;
-        //background-color: purple;
 
         @media (min-width: 500px) {
             background-size: auto;
@@ -64,6 +63,7 @@
             padding-top: 50px;
         }
 
+    
         @media (min-width: 768px) {
             background-size: auto;
             background-position: -280px -40px;
@@ -71,19 +71,16 @@
         }
 
         @media (min-width: 1024px) {
-            background-size: 702px 959px;;
+            background-size: 842px 1099px;
+            background-position: 5px -20px;
+            background-size: cover;
             background-image: url("../images/right_block--desktop.png");
-            background-position: 5px -150px;
             height: 650px;
-            //padding-top: 200px;
-            //padding-left: 100px;
             position: relative;
-
         }
 
         @media (min-width: 1200px) {
-            background-size: 842px 1099px;
-            background-position: 5px -240px;
+            background-position: 5px -50px;
             height: 700px;
         }
     }
