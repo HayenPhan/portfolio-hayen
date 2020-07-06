@@ -7,9 +7,11 @@ import styled from 'styled-components';
 
 import imgDetailPlantacle from './../../../images/tropicana.jpg';
 import imgDetailBanzai from './../../../images/banzai.jpg';
+import imgDetailILE from './../../../images/erasmus.png';
+
 
 const DetailImg = styled.div`
-    background-image: url(${props => props.title === 'Plantacle' ? imgDetailPlantacle : imgDetailBanzai});
+    background-image: url(${props => props.title === 'Plantacle' ? imgDetailPlantacle : props.title === 'Banzai' ? imgDetailBanzai : props.title === 'I.L.E' ? imgDetailILE : null});
     background-size: 281px 130px;
     background-repeat: no-repeat;
     width: 281px;

@@ -9,6 +9,7 @@ import {
 import Home from './../pages/home/Home';
 import DetailPlantacle from '../pages/detail-project/DetailPlantacle';
 import DetailBanzai from '../pages/detail-project/DetailBanzai';
+import DetailILE from '../pages/detail-project/DetailILE';
 
 class App extends React.Component {
     render() {
@@ -18,6 +19,7 @@ class App extends React.Component {
                   <Route exact path="/" component={Home} />
                   <Route path="/plantacle" component={DetailPlantacle} />
                   <Route path="/banzai" component={DetailBanzai} />
+                  <Route path="/ile-erasmus" component={DetailILE} />
                 </Switch>
             </HashRouter>
         );
