@@ -45,6 +45,20 @@ class Home extends React.Component {
             topLg="1400px"
             >
             </Project>
+            <Project
+              title="I.L.E"
+              text="The ILE Erasmus app is targeted at students who are studying the anatomy of the female body"
+              count="03"
+              buttonLink="/ile-erasmus/#ile1"
+              widthBanzai="708px"
+              heightBanzai="697px"
+              topXxs="3320px"
+              topXs="3600px"
+              topSm="4050px"
+              topMd="1300px"
+              topLg="1400px"
+              >
+              </Project>
       </Container>
     )
   }
