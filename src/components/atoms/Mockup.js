@@ -2,9 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import imgPlantacle from '../../images/iphone_mockup.png';
 import imgBanzai from '../../images/macbook_mockup.png';
+import imgILE from '../../images/macbook_mockup--ILE.png';
 
 const MockupImage = styled.div`
-    background-image: url(${props => props.title === 'Plantacle' ? imgPlantacle : imgBanzai });
+    background-image: url(${props => props.title === 'Plantacle' ? imgPlantacle : props.title === 'Banzai' ? imgBanzai : props.title === 'I.L.E' ? imgILE : null });
     background-size: 278px 287px;
     background-repeat: no-repeat;
     width: 100%;
