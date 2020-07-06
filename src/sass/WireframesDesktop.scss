@@ -1,4 +1,4 @@
-.wireframes-banzai {
+.wireframes-desktop {
     width: 100%;
     position: absolute;
     //background-color: crimson;
@@ -80,7 +80,7 @@
     }
 
     &__wireframe {
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         //background-color: grey;
         width: 340px;
@@ -108,22 +108,6 @@
             height: 470px;
         }
 
-    }
-
-    &__wireframe1 {
-        background-image: url("../images/wireframebanzai--1.jpg");
-    }
-
-    &__wireframe2 {
-        background-image: url("../images/wireframebanzai--2.jpg");
-    }
-
-    &__wireframe3 {
-        background-image: url("../images/wireframebanzai--3.jpg");
-    }
-
-    &__wireframe4 {
-        background-image: url("../images/wireframebanzai--4.jpg");
     }
 
 }

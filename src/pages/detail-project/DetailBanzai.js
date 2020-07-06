@@ -4,7 +4,7 @@ import { Container } from 'react-bootstrap';
 // components
 
 import Intro from './sections/Intro';
-import WireframesBanzai from './sections/WireframesBanzai';
+import WireframesDesktop from './sections/WireframesDesktop';
 
 
 
@@ -19,7 +19,11 @@ class DetailBanzai extends React.Component {
            id="banzai1"
            githubLink="https://github.com/HayenPhan/banzai-scheduler"
           />
-          <WireframesBanzai />
+          <WireframesDesktop
+            countTitle="banzai"
+            count="0.2.2"
+            title="Banzai"
+          />
       </Container>
     )
   }
