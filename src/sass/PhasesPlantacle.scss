@@ -4,33 +4,38 @@
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 20px;
-  top: 950px;
-  height: 1900px;
+  top: 1650px;
   //background-color: yellow;
 
   @media (min-width: 500px) {
-      top: 900px;
+      //top: 1480px;
+      top: 1510px;
   }
+
+  @media (min-width: 692px) {
+      //top: 1500px;
+  }
+
 
   @media (min-width: 768px) {
       height: 2240px;
-      top: 1024px;
+      //top: 2000px;
   }
 
   @media (min-width: 768px) {
       height: 1350px;
-      top: 1024px;
+      //top: 1024px;
   }
 
 
   @media (min-width: 1024px) {
       height: 1350px;
-      top: 720px;
+    //  top: 720px;
   }
 
   @media (min-width: 1200px) {
       height: 700px;
-      top: 700px;
+      //top: 700px;
   }
 
   &__pagenumber-wrapper {

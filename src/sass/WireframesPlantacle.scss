@@ -2,32 +2,36 @@
     width: 100%;
     position: absolute;
     //background-color: crimson;
-    top: 3160px;
+    top: 3850px;
     height: 812px;
 
     @media (min-width: 500px) {
-        top: 3050px;
+        top: 3660px;
+    }
+
+    @media (min-width: 692px) {
+        //top: 3450px;
+        //top: 4150px;
+        top: 4150px;
     }
 
     @media (min-width: 768px) {
-        top: 3450px;
+        //top: 3450px;
         height: 1480px;
-    }
-
-
-    @media (min-width: 800px) {
-        top: 2370px;
+        //top: 2950px;
+        //top: 2900px;
+        top: 2900px;
     }
 
     @media (min-width: 1024px) {
-        top: 2000px;
+        //top: 2000px;
         height: 1366px;
         padding-left: 50px;
         padding-right: 50px;
     }
 
     @media (min-width: 1200px) {
-        top: 1400px;
+        //top: 1400px;
         height: 700px;
     }
 

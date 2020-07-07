@@ -7,8 +7,6 @@
     padding-right: 50px; //delete later
     padding-top: 20px;
 
-    //background-color: pink;
-
     @media (min-width: 500px) {
         height: 900px;
     }
@@ -132,11 +130,20 @@
         letter-spacing: 2px;
         font-size: 15px;
         line-height: 2;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
 
         @media (min-width: 1024px) {
             text-align: left;
         }
+    }
+
+    &__info {
+        font-family: 'Lora', sans-serif;
+        color: #33338E;
+        letter-spacing: 2px;
+        font-size: 15px;
+        margin-bottom: 40px;
+        line-height: 2;
     }
 
     &__text-block {
@@ -145,11 +152,8 @@
         text-align: center;
         font-family: 'Lora', sans-serif;
         color: #33338E;
-
-        @media (min-width: 768px) {
-            display: flex;
-            justify-content: center;
-        }
+        display: flex;
+        justify-content: center;
 
         @media (min-width: 1024px) {
             position: relative;
@@ -160,9 +164,10 @@
     }
 
     &__text-wrapper {
+          max-width: 350px;
 
       @media (min-width: 768px) {
-          width: 400px;
+          max-width: 400px;
       }
       @media (min-width: 1024px) {
           position: absolute;
@@ -170,12 +175,12 @@
           left: 50%;
           transform: translate(-50%, -50%);
           //background-color: pink;
-          width: 350px;
+          max-width: 350px;
       }
 
       @media (min-width: 1200px) {
           left: 40%;
-          width: 400px;
+          max-width: 400px;
       }
     }
 
