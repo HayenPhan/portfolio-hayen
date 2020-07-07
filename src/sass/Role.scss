@@ -6,9 +6,13 @@
   padding-top: 20px;
   top: 1000px;
   height: 500px;
-  background-color: yellow;
   display: flex;
   justify-content: center;
+  background-color: blue;
+
+  @media (min-width: 1024px) {
+      justify-content: flex-start;
+  }
 
   @media (min-width: 500px) {
       //top: 1480px;
@@ -32,18 +36,33 @@
 
 
   @media (min-width: 1024px) {
-      height: 1350px;
-    //  top: 720px;
+      top: 720px;
+      height: 500px;
   }
 
   @media (min-width: 1200px) {
-      height: 700px;
+
       //top: 700px;
   }
 
   &__text-wrapper {
     max-width: 350px;
     text-align: center;
+    background-color: crimson;
+
+    @media (min-width: 1024px) {
+        width: 100%;
+        max-width: 700px;
+        text-align: left;
+        margin-left: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    @media (min-width: 1024px) {
+        padding-left:30px;
+        padding-right: 30px;
+    }
   }
 
 }
