@@ -159,7 +159,6 @@
         justify-content: center;
 
         @media (min-width: 1024px) {
-            position: relative;
             width: 50%;
             margin-left: 50px;
             text-align: left;
@@ -169,21 +168,13 @@
 
     &__text-wrapper {
           max-width: 350px;
+          background-color: green;
 
       @media (min-width: 768px) {
           max-width: 400px;
       }
-      @media (min-width: 1024px) {
-          position: absolute;
-          top: 50%;
-          left: 30%;
-          transform: translate(-50%, -50%);
-          //background-color: pink;
-          max-width: 350px;
-      }
 
       @media (min-width: 1200px) {
-          left: 40%;
           max-width: 400px;
       }
     }
