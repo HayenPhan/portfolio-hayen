@@ -6,7 +6,7 @@
   padding-top: 20px;
   top: 1000px;
   height: 500px;
-  background-color: black;
+  //background-color: black;
   display: flex;
   justify-content: center;
 
@@ -26,7 +26,7 @@
 
   @media (min-width: 768px) {
       height: 2240px;
-      //top: 2000px;
+      top: 1080px;
   }
 
   @media (min-width: 768px) {
@@ -48,7 +48,7 @@
   &__text-wrapper {
     max-width: 350px;
     text-align: center;
-    background-color: crimson;
+    //background-color: crimson;
 
     @media (min-width: 768px) {
         max-width: 500px;
@@ -60,14 +60,15 @@
         text-align: left;
 
         margin-bottom: 60px;
-        padding-right: 60px;
+        padding-right: 200px;
         padding-left: 60px;
+        padding-top: 60px;
     }
 
   }
 
   &__text {
-    background-color: pink;
+    //background-color: pink;
   }
 
 }

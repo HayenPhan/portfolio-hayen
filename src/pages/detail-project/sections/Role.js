@@ -6,6 +6,7 @@ class Role extends React.Component {
     return (
         <section className="role">
           <div className="role__text-wrapper">
+              <div class="intro-detail__wave"> </div>
               <div className="role__text">
                   <p className="intro-detail__info"> <b> Role: </b> {this.props.role}</p>
                   <p className="intro-detail__info"> <b> Responsibility: </b> {this.props.responsibility}</p>
