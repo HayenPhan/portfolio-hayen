@@ -1,10 +1,11 @@
 .phases-plantacle {
   width: 100%;
   position: absolute;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-top: 20px;
   top: 1650px;
+  background-color: blue;
   //background-color: yellow;
 
   @media (min-width: 500px) {
@@ -83,8 +84,7 @@
       @media (min-width: 1200px) {
           justify-content: center;
           margin-bottom: 60px;
-          padding-left: 20px;
-          padding-right: 10px;
+          padding-right: 60px;
           padding-left: 60px;
       }
   }
@@ -106,7 +106,7 @@
       }
 
       @media (min-width: 1200px) {
-          width: 240px;
+          width: 25%;
           position: relative;
 
       }

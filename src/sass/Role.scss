@@ -6,9 +6,9 @@
   padding-top: 20px;
   top: 1000px;
   height: 500px;
+  background-color: black;
   display: flex;
   justify-content: center;
-  background-color: blue;
 
   @media (min-width: 1024px) {
       justify-content: flex-start;
@@ -50,15 +50,24 @@
     text-align: center;
     background-color: crimson;
 
-    @media (min-width: 1024px) {
-        width: 100%;
-        max-width: 700px;
-        text-align: left;
-        margin-left: 50px;
-        padding-left: 10px;
-        padding-right: 10px;
+    @media (min-width: 768px) {
+        max-width: 500px;
     }
 
+    @media (min-width: 1024px) {
+        width: 100%;
+        max-width: none;
+        text-align: left;
+
+        margin-bottom: 60px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+  }
+
+  &__text {
+    background-color: pink;
   }
 
 }
