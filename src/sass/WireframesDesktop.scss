@@ -2,19 +2,19 @@
     width: 100%;
     position: absolute;
     //background-color: crimson;
-    top: 700px;
+    top: 2000px;
     height: 812px;
 
     @media (min-width: 768px) {
-        top: 800px;
+        //top: 800px;
     }
 
     @media (min-width: 1024px) {
-       top: 650px;
+       //top: 650px;
     }
 
     @media (min-width: 1200px) {
-       top: 750px;
+       //top: 750px;
     }
 
     &__pagenumber-wrapper {
