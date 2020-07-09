@@ -25,7 +25,7 @@ class DetailPlantacle extends React.Component {
           </Intro>
           <Role
             role="Front-end developer, Designer"
-            responsibility="It was my responsibility to read the sensor data in the front-end. I then used this data to write the logic for the different stages of the compost. I have also programmed the tasks that appear based on the stage of the compost. I also styled the website with sass and for the design part I made the high fidelity wireframes and illustrations of the compost bins."
+            responsibility="It was my responsibility to read the sensor data in the front-end. I then used this data to write the logic for the different stages of the compost and programmed the tasks to appear on the 'Tasks' page based on the stage of the compost. I've used Sass for the styling part and created the high fidelity wireframes and illustrations of the compost bins before the development of the web-app."
             build="React.js, Sass"
           />
           <PhasesPlantacle />
