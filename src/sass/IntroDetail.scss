@@ -194,17 +194,10 @@
     }
 
     &__wave {
-      width: 100%;
-      height: 30px;
-      background-image: url("../images/wave--mobile.png");
-      //background-color: pink;
-      background-size: contain;
-      background-repeat: no-repeat;
-      //background-color: blue;
-      margin-top: -15px;
-      margin-bottom: 15px;
+    display: none;
 
       @media (min-width: 768px) {
+          display: block;
           margin-top: -70px;
           margin-bottom: 30px;
       }
