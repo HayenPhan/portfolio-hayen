@@ -8,7 +8,7 @@ const SectionRole = styled.section`
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 20px;
-  top: 1000px;
+  top: ${(props) => props.project === 'Banzai' ? '1000px' : props.project === 'Plantacle' ? '1000px' : '1000px' };
   height: 500px;
   display: flex;
   justify-content: center;
@@ -18,30 +18,23 @@ const SectionRole = styled.section`
   }
 
   @media (min-width: 500px) {
-      top: 960px;
-  }
-
-  @media (min-width: 692px) {
+      top: ${(props) => props.project === 'Banzai' ? '960px' : props.project === 'Plantacle' ? '960px' : '1150px' };
   }
 
 
   @media (min-width: 768px) {
       height: 2240px;
-      top: 1080px;
+      top: ${(props) => props.project === 'Banzai' ? '1080px' : props.project === 'Plantacle' ? '1080px' : '1240px' };
   }
-
-  @media (min-width: 768px) {
-      height: 1350px;
-  }
-
 
   @media (min-width: 1024px) {
-      top: 720px;
+      top: ${(props) => props.project === 'Banzai' ? '720px' : props.project === 'Plantacle' ? '720px' : '860px' };
       height: 500px;
   }
 
+
   @media (min-width: 1200px) {
-      top: 600px;
+      top: ${(props) => props.project === 'Banzai' ? '600px' : props.project === 'Plantacle' ? '600px' : '700px' };
   }
 
 `
@@ -49,7 +42,7 @@ const SectionRole = styled.section`
 class Role extends React.Component {
   render(props) {
     return (
-        <SectionRole>
+        <SectionRole project={this.props.project}>
           <div className="role__text-wrapper">
               <div class="intro-detail__wave"> </div>
               <div className="role__text">

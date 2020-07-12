@@ -221,11 +221,10 @@
 
       @media (min-width: 1200px) {
         background-repeat: no-repeat;
-        background-size: cover;
-        height: 60px;
+        background-size: contain;
+        height: 70px;
         margin-top: -20px;
         margin-bottom: 80px;
-          //background-color: crimson;
       }
 
 
