@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba7a3ebf4827a6048b9d36c010becfa2",
+    "revision": "568da8cd06a07cf4b686534598ec4ae0",
     "url": "/index.html"
   },
   {
-    "revision": "73dc00c8c32ecc675d97",
+    "revision": "b9d792ab5b9b15b85eb3",
     "url": "/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "68dfb83841f0681cac5c",
-    "url": "/static/css/main.0e682ca7.chunk.css"
+    "revision": "904b745414e00d1dc686",
+    "url": "/static/css/main.dedb98e4.chunk.css"
   },
   {
-    "revision": "73dc00c8c32ecc675d97",
-    "url": "/static/js/2.fabb1ea1.chunk.js"
+    "revision": "b9d792ab5b9b15b85eb3",
+    "url": "/static/js/2.e09eaf50.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/static/js/2.fabb1ea1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e09eaf50.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68dfb83841f0681cac5c",
-    "url": "/static/js/main.fa98fc0c.chunk.js"
+    "revision": "904b745414e00d1dc686",
+    "url": "/static/js/main.19054a71.chunk.js"
   },
   {
     "revision": "04ade1f1785a4090f4fa",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "14fcd21577fe663eca8d7a88050c98a1",
     "url": "/static/media/iphone_mockup.14fcd215.png"
+  },
+  {
+    "revision": "3fcee8a4d60451a9e3c87313909dcdd8",
+    "url": "/static/media/macbook_mockup--ILE.3fcee8a4.png"
   },
   {
     "revision": "c453b16fe5b7dba3faf675f1d1a87d76",
@@ -68,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/picture--mobile.8789175e.png"
   },
   {
-    "revision": "68102816388b2ee4670235d0a25dd4f6",
-    "url": "/static/media/right_block--desktop.68102816.png"
+    "revision": "5b39e1b8b5a408185b1e18d4e08d043d",
+    "url": "/static/media/right_block--desktop.5b39e1b8.png"
   },
   {
     "revision": "efa4980bcf5d099676c8bc9905818669",
@@ -82,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1a551b7e773908d78fa21255d8f4fd0f",
     "url": "/static/media/tropicana.1a551b7e.jpg"
+  },
+  {
+    "revision": "4435392bcde57c322054fbdf07cf8b73",
+    "url": "/static/media/wave--desktop.4435392b.png"
   },
   {
     "revision": "10e3878c7aa2ffc9cee9b2552069f12f",
@@ -114,5 +122,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "582856f50eab3d9122fcea88edf4ffd0",
     "url": "/static/media/wireframebanzai--4.582856f5.jpg"
+  },
+  {
+    "revision": "3e78c01f5ce80d1eafab3d55dee6ff3a",
+    "url": "/static/media/wireframeile--1.3e78c01f.jpg"
+  },
+  {
+    "revision": "9c1756d55e37af6a770bae186f163090",
+    "url": "/static/media/wireframeile--2.9c1756d5.jpg"
+  },
+  {
+    "revision": "44ff4ff080aad8df22592d603244137c",
+    "url": "/static/media/wireframeile--3.44ff4ff0.jpg"
+  },
+  {
+    "revision": "2f16511eb003ee5e875439260ddf735d",
+    "url": "/static/media/wireframeile--4.2f16511e.jpg"
   }
 ]);
