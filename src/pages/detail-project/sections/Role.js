@@ -8,7 +8,7 @@ const SectionRole = styled.section`
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 20px;
-  top: ${(props) => props.project === 'Banzai' ? '1000px' : props.project === 'Plantacle' ? '1000px' : '1000px' };
+  top: ${(props) => props.project === 'Banzai' ? '1000px' : props.project === 'Plantacle' ? '1000px' : '1300px' };
   height: 500px;
   display: flex;
   justify-content: center;

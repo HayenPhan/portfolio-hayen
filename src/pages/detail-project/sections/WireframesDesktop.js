@@ -33,39 +33,59 @@ const Wireframe4 = styled.div`
     background-image: url(${props => props.title === 'Banzai' ? wireframeBanzai4 : props.title === 'I.L.E' ? wireframeILE4 : null });
 `;
 
+const SectionWireframesDesktop = styled.section`
+    width: 100%;
+    position: absolute;
+    //background-color: crimson;
+    top: ${(props) => props.title === 'Banzai' ? '1600px' : '1920px'};
+    height: 812px;
+
+    @media (min-width: 500px) {
+        top: ${(props) => props.title === 'Banzai' ? '1500px' : '1700px'};
+    }
+
+    @media (min-width: 1024px) {
+        top: ${(props) => props.title === 'Banzai' ? '1300px' : '1400px'};
+    }
+
+    @media (min-width: 1200px) {
+       top: ${(props) => props.title === 'Banzai' ? '1200px' : '1300px'};
+    }
+`
+
 
 class WireframesDesktop extends React.Component {
   render(props) {
     return (
-        <section className="wireframes-desktop">
+        <SectionWireframesDesktop title={this.props.title}>
             <div className="wireframes-plantacle__pagenumber-wrapper">
                 <PageNumber title={this.props.countTitle} count={this.props.count} className="wireframes-plantacle__pagenumber"> </PageNumber>
             </div>
 
             <div className="wireframes-desktop__blocks-wrapper">
                 <div className="wireframes-desktop__block">
-                    <h5 className="wireframes-desktop__block-title"> LOGIN </h5>
+                    <h5 className="wireframes-desktop__block-title"> {this.props.wireframeTitle1} </h5>
 
                     <Wireframe1 title={this.props.title} className="wireframes-desktop__wireframe"/>
                 </div>
                 <div className="wireframes-desktop__block">
-                    <h5 className="wireframes-desktop__block-title"> HOME </h5>
+                    <h5 className="wireframes-desktop__block-title"> {this.props.wireframeTitle2} </h5>
 
                     <Wireframe2 title={this.props.title}  className="wireframes-desktop__wireframe" />
                 </div>
                 <div className="wireframes-desktop__block">
-                    <h5 className="wireframes-desktop__block-title"> SCHEDULE </h5>
+                    <h5 className="wireframes-desktop__block-title"> {this.props.wireframeTitle3} </h5>
 
                     <Wireframe3 title={this.props.title}  className="wireframes-desktop__wireframe"/>
                 </div>
                 <div className="wireframes-desktop__block">
-                    <h5 className="wireframes-desktop__block-title"> REQUESTS </h5>
+                    <h5 className="wireframes-desktop__block-title"> {this.props.wireframeTitle4} </h5>
 
                     <Wireframe4 title={this.props.title}  className="wireframes-desktop__wireframe"/>
                 </div>
             </div>
 
-        </section>
+        </SectionWireframesDesktop>
     )
   }
 }

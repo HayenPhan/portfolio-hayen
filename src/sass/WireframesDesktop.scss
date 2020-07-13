@@ -1,22 +1,4 @@
 .wireframes-desktop {
-    width: 100%;
-    position: absolute;
-    //background-color: crimson;
-    top: 1600px;
-    height: 812px;
-
-    @media (min-width: 500px) {
-        top: 1500px;
-    }
-
-    @media (min-width: 1024px) {
-        top: 1300px;
-    }
-
-    @media (min-width: 1200px) {
-       top: 1200px;
-    }
-
     &__pagenumber-wrapper {
         display: flex;
         justify-content: center;

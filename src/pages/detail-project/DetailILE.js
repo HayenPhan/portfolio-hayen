@@ -28,6 +28,10 @@ class DetailILE extends React.Component {
           countTitle="i.l.e"
           count="0.3.2"
           title="I.L.E"
+          wireframeTitle1="3D View: Skin filter"
+          wireframeTitle2="3D View: Default pelvis"
+          wireframeTitle3="3D View: Compartment of pelvis"
+          wireframeTitle4="3D View: Controller moves 3D object"
           />
       </Container>
     )

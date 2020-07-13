@@ -32,6 +32,10 @@ class DetailBanzai extends React.Component {
             countTitle="banzai"
             count="0.2.2"
             title="Banzai"
+            wireframeTitle1="LOGIN"
+            wireframeTitle2="HOME"
+            wireframeTitle3="SCHEDULE"
+            wireframeTitle4="REQUESTS"
           />
       </Container>
     )
